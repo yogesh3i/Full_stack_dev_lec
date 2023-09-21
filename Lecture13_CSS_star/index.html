@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- here we are linking the CSS file to the HTML -->
+
+    <link rel="stylesheet" href="first.css">
+
+    <!-- To use the internel CSS need to specify it under the head tag -->
+
+    <style>
+        p{
+            background-color: bisque !important;
+
+            /* if i remove this important it will follow the inline CSS */
+        }
+    </style>
+
+    <style>
+        h1{
+            color: brown;
+        }
+    </style>
+    <!-- Afetr applying this the background color of the first para is not changing beccause the 
+    priority of the inline CSS is more than any one else.
+    if wanted to use any specific CSS format mark it as important  -->
+
+</head>
+<body>
+    <h1>Welcome to Home</h1>
+    <!-- Now using inline CSS  this is the inline CSS-->
+    <p style="background-color: aquamarine;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae qui corrupti aspernatur sed non ex 
+        harum porro odit explicabo quisquam.
+    </p>
+    <!-- For externel CSS need to create and link the externel CSS file -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio error optio eveniet quidem odio eos
+         dicta consequuntur dolore accusamus consequatur dolor pariatur, exercitationem nam aut sunt. Iste commodi perferendis earum!
+    </p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus aliquid cumque quo vero mollitia nostrum
+         animi velit error recusandae ipsa reprehenderit asperiores, expedita ab laboriosam consequatur modi, 
+         in ad et, quia aliquam fuga nemo quam qui exercitationem? Quas, accusamus excepturi!
+    </p>
+
+    
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!-- creating tables in html  -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="'1">
+        <th>Name</th>
+        <th>Age</th>
+        <th>Bill</th>
+        <th>ID</th>
+
+        <tbody>
+            <tr>
+                <td>Yash</td>
+                <td>23</td>
+                <td>2000</td>
+                <td>I1</td>
+            </tr>
+            <tr>
+                <td>Arpit</td>
+                <td>30</td>
+                <td>4000</td>
+                <td>I2</td>
+            </tr>
+            <tr>
+                <td>Umesh</td>
+                <td>34</td>
+                <td>3000</td>
+                <td>I3</td>
+            </tr>
+            <tr>
+                <td>Raju</td>
+                <td>40</td>
+                <td>5000</td>
+                <td>I4</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- if the data for last two ids is missing then what to do ? -->
+    <!-- we can use rowspan and colspan function like below  -->
+
+    <table border="'1">
+        <th>Name</th>
+        <th>Age</th>
+        <th>Bill</th>
+        <th>ID</th>
+
+        <tbody>
+            <tr>
+                <td>Rina</td>
+                <td>23</td>
+                <td>2000</td>
+                <td>I1</td>
+            </tr>
+            <tr>
+                <td>Jaya</td>
+                <td>30</td>
+                <td>4000</td>
+                <td rowspan="3">I2</td>   
+                <!-- I2 will extend upto three rows  -->
+                <!-- same goes for cols -->
+            </tr>
+            <tr>
+                <td>Sanu</td>
+                <td>34</td>
+                <td>3000</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Priya</td>
+                <td>40</td>
+                <td>5000</td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

@@ -1,0 +1,30 @@
+/* using element */
+
+p{
+    font-style: italic;
+    background-color: aquamarine;
+}
+
+
+/* using id  here */
+
+#rumer{
+    text-align: center;
+    font-style: oblique;
+    color: darkorange;
+}
+
+
+/* using class */
+
+.toy{
+    background-color: blueviolet;
+}
+
+
+/* lets say i wanted to change for both aricle and the section */
+
+section,article{
+    background-color: darkcyan;
+    font-style: inherit;
+}

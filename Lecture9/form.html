@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            background-color: aqua;
+
+        }
+
+        label{
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+    <h1>Job Application</h1>
+    </fieldset>
+    <br/>
+    <form>
+
+        <label for="name1">Name:</label>
+        <input type="text" name="Name" id="name1">
+        <br/>
+        <br/>
+
+        <label for="email1">Email:</label>
+        <input type="text" name="Email" id="email1">
+        <br/>
+        <br/>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" name="phone" id="phone">
+
+        <br/>
+        <br/>
+
+        <label for="">Resume:</label>
+        <input type="file" id="file1">
+
+        <br/>
+        <br/>
+
+        <label for="">Experience:</label>
+        <select name="experience" id="ex1">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="More than 3 ">3+</option>
+            
+
+        </select>
+
+        <br/>
+        <br/>
+
+        <legend>Skills</legend>
+        <fieldset>
+            <label for="skill1">HTML</label>
+            <input type="checkbox" name="skills" id="skill1">
+            <label for="skill3">CSS</label>
+            <input type="checkbox" name="skills" id="skill2">
+            <label for="skill3">JAVA</label>
+            <input type="checkbox" name="skills" id="skill3">
+        </fieldset>
+
+        <br/>
+        <br/>
+        <label for="edu1"> Highiest Education:</label>
+        <select name="edu" id="edu1">
+            <option value="B.E">B.E.</option>
+            <option value="B. COM">B.COM</option>
+            <option value="12">12</option>
+            <option value="M.Sc.">MSc.</option>
+            
+        </select>
+
+        <br/>
+        <br/>
+
+        <fieldset>
+            
+        <legend>Availability:</legend>
+        <br/>
+        
+
+        <label for="full time ">Full time</label>
+        <input type="radio" name="availa" id="full time" >
+
+        <br/>
+        
+
+        <label for="Part time">Part time</label>
+        <input type="radio" name="availa" id="Part time">
+        <br/>
+        
+        </fieldset>
+
+        <label for="tt">Leave your comments here:</label>
+        <br/>
+        <br/>
+        <textarea name="text" id="tt" cols="30" rows="10" placeholder="Type here........"></textarea>
+
+        <br/>
+        <button>Submit</button>
+
+    </form>
+
+</body>
+</html>
